@@ -1,86 +1,67 @@
 body {
-    position: relative;
-    font-family: 'Roboto', sans-serif;
-    background-color: black;
-    color: white;
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    
-  }
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  
+}
 
 .myHeader {
-    background-color: black;
-    color: white;
-    width: 100%;
-    height: 100px;
-    font-family: 'Pattaya', sans-serif;
-    text-align: center;
-  }
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100px;
+  font-family: 'Pattaya', sans-serif;
+  text-align: center;
+}
 
-  h1 {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    color: #eee;
-    text-align: center;
-  }
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
 
-  h2 {
-    font-size: 24px;
-  }
-  
-  a {
-    color: #d21034;
-  }
-  
-  /* Selecting elements by class */
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-  
-  /* Selecting elements by ID */
-  #main-bio,
-  #contact-info,
-  #bio-image {
-    float: left;
-  }
+h2 {
+  font-size: 24px;
+}
 
-  #bio-image {
-    border-radius: 50%;
-  }
-  .floatRight {
-    float: right;
-  }
+a {
+  color: #d21034;
+}
 
-  #figure {
-    position: relative;
-  }
+/* Selecting elements by class */
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+/* Selecting elements by ID */
+
+#bio-image {
+  float: left;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+}
+
+.floatRight {
+  float: right;
+}
+
+#figure {
+  position: relative;
+}
   
-  #bio-name {
-    position: absolute;
-    top: 150px;
-    left: 30px;
-  }
-  
-  #main-bio {
-    width: 70%;
-  }
-  
-  #contact-info {
-    width: 30%;
-  }
-  
-  #bio-image {
-    width: 200px;
-    height: 200px;
-    margin-right: 20px;
-  }
-  
+
 #TableDiv {
-    text-align: center;
-    border: 1px solid green;
-	padding: 5px;
+  text-align: center;
+  border: 1px solid green;
+padding: 5px;
 }
